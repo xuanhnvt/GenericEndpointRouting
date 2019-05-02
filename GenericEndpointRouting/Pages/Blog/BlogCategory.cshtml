@@ -1,0 +1,10 @@
+﻿@page "{genericSlug}"
+@model GenericEndpointRouting.Pages.Blog.BlogCategoryModel
+@{
+    ViewData["Title"] = "Blog Category";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h2>Slug: @Model.Slug</h2>
+<h2>@Model.RouteDataString</h2>
+
